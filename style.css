@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-transform: capitalize;
     font-family: sans-serif;
+    
 }
 main{
 display: flex;
@@ -32,11 +33,14 @@ min-height: 100vh;
     border-radius: 8px 8px 0 0;
     }
     .card_header img{
-        width: 30%;
+        width: 25%;
+        height: 90px;
      position: relative;
-     top: 45%;
+     top: 50%;
      left: 35%;
-    border-radius: 120px;
+     border-radius:750%;
+     border: 1px solid blue;
+    
     }
     .card_body{
        margin-top: 30%;
@@ -66,18 +70,43 @@ min-height: 100vh;
        
         justify-content: space-between;
         align-items: center;
-        color: red;
+       color: white;
         size: 30px;
       
     }
-    
+    .fb{
+       color: white;
+       padding:5px 8px;
+        border-radius: 15px;
+        background-color: blue;
+       
+    }
+    .twitter{
+        color: white;
+        padding:5px 8px;
+        border-radius: 20px;
+        background-color: rgb(57, 163, 205);
+
+    }
+    .insta{
+        color: white;
+        padding:5px 8px;
+        border-radius: 20px;
+        background-color:rgb(222, 16, 50);
+    }
+    .youtube{
+        color: white;
+        padding:5px 6px;
+        border-radius: 20px;
+        background-color:red;
+    }
     button{
-        padding: 10px 30px 10px 30px;
-        border-radius: 11px;
+        padding: 8px 30px 8px 30px;
+        border-radius: 13px;
         background-color: blue;
         color: white;
         margin-left: 10%;
-        border:1px solid black;
+        
     }
     .social_button{
         display: flex;
@@ -94,3 +123,13 @@ min-height: 100vh;
     .social_button li i{
 color: black;
     }
+   .heart{
+    border-right: 1px solid black;
+    padding: 0 20px 0 20px;
+   
+   } 
+   .comment{
+    border-right: 1px solid black;
+    padding: 0 20px 0 20px;
+    
+   }
